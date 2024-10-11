@@ -5,7 +5,7 @@ class DocumentSplitter:
     A class for splitting text data into smaller chunks with optional overlap and start index tracking.
     """
 
-    def __init__(self, data: str, chunk_size: int = 1000, overlap: int = 200, add_start_index: bool = True):
+    def __init__(self, data: str, chunk_size: int = 1000, overlap: int = 200, add_start_index: bool = False):
         """
         Initialize the DocumentSplitter.
 

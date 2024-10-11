@@ -70,6 +70,14 @@ pip install -e .
 
 For detailed instructions on how to use this application, please refer to our [User Guide](USER_GUIDE.md).
 
+## Code Documentation
+
+For detailed documentation of the code, please refer to our [Code Documentation Guide](Documentation.md).
+
+## Pipeline Documentatio
+
+For detailed piepline documentation, please refer to our [Pipeline Documentation Guide](PipelineDocumentation.md)
+
 ## Troubleshooting
 
 - If you encounter any "Module not found" errors, make sure you've activated your virtual environment and installed all dependencies correctly.

@@ -43,6 +43,20 @@ def setup_pinecone(index_name, vectors, pinecone_api=PINECONE_API_KEY):
         raise Exception(f"An error occurred while setting up the Pinecone index: {e}")
     
 def list_indexes(pinecone_api=PINECONE_API_KEY):
+    """
+    List all existing Pinecone indexes.
+
+    Args:
+        pinecone_api (str): The API key for authenticating with Pinecone. 
+                            Defaults to the PINECONE_API_KEY from the configs.
+
+    Returns:
+        list: A list of index names.
+
+    Description:
+        This function initializes a Pinecone client with the provided API key
+        and retrieves the names of all existing indexes.
+    """
     pinecone = Pinecone(api_key=pinecone_api)
     indexes = pinecone.list_indexes()
     return indexes
