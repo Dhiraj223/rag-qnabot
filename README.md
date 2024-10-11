@@ -41,6 +41,7 @@ Before you begin, ensure you have the following installed on your system:
 Install the required packages using pip:
 ```
 pip install -r requirements.txt
+pip install -e .
 ```
 
 ## Step 4: Set Up Environment Variables
