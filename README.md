@@ -65,8 +65,12 @@ pip install -r requirements.txt
 
 4. Open the provided URL in your web browser to use the Document Q&A System.
 
+## User Guide
+
+For detailed instructions on how to use this application, please refer to our [User Guide](USER_GUIDE.md).
+
 ## Troubleshooting
 
 - If you encounter any "Module not found" errors, make sure you've activated your virtual environment and installed all dependencies correctly.
 - If you have issues with Pinecone, ensure your API key is correctly set in the `.env` file and that you have an active Pinecone account.
-- For any other issues, please check the project's GitHub Issues page or create a new issue if you can't find a solution.
+
